@@ -30,7 +30,7 @@
     if (!(image instanceof HTMLImageElement)) return;
     if (image.dataset.fallbackApplied === "true") return;
     image.dataset.fallbackApplied = "true";
-    image.src = "assets/images/berrybelle.jpg";
+    image.src = "assets/images/BerryBelle.jpg";
   }, true);
 
   const escapeHtml = (value) => String(value ?? "")
