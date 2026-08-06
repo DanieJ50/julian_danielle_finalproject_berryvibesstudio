@@ -30,7 +30,8 @@
     if (!(image instanceof HTMLImageElement)) return;
     if (image.dataset.fallbackApplied === "true") return;
     image.dataset.fallbackApplied = "true";
-    image.src = "assets/images/BerryBelle.jpg";
+    <img src="assets/images/berrybelle.jpg" alt="BerryBelle, the pink strawberry milk carton mascot">
+          <figcaption>BERRYBELLE / REEL GUIDE</figcaption>;
   }, true);
 
   const escapeHtml = (value) => String(value ?? "")
