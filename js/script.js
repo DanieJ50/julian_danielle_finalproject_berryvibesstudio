@@ -31,7 +31,6 @@
     if (image.dataset.fallbackApplied === "true") return;
     image.dataset.fallbackApplied = "true";
     image.src = "BerryBelle.jpg";
-    image.alt = "BerryBelle fallback image";
   }, true);
 
   const escapeHtml = (value) => String(value ?? "")
