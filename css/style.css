@@ -64,12 +64,12 @@ a { color:inherit; }
 
 .hero-contact-sheet { position:relative; min-height:650px; perspective:1200px; }
 .contact-frame,.berrybelle-polaroid { position:absolute; overflow:hidden; background:#fff; border:10px solid #fff; box-shadow:var(--shadow); border-radius:10px; }
-.contact-frame img,.berrybelle-polaroid img { width:100%; height:100%; object-fit:cover; }
+.contact-frame img,.berrybelle.jpg-polaroid img { width:100%; height:100%; object-fit:cover; }
 .frame-a { width:46%; height:42%; top:2%; left:0; transform:rotate(-8deg); animation:floatA 6s ease-in-out infinite; }
 .frame-b { width:42%; height:38%; top:6%; right:0; transform:rotate(9deg); animation:floatB 7s ease-in-out infinite; }
 .frame-c { width:38%; height:34%; bottom:2%; right:2%; transform:rotate(-5deg); animation:floatC 6.5s ease-in-out infinite; }
 .berrybelle-polaroid { width:48%; height:56%; left:26%; top:23%; transform:rotate(2deg); z-index:4; }
-.berrybelle-polaroid img { height:calc(100% - 54px); }
+.berrybelle.jpg-polaroid img { height:calc(100% - 54px); }
 .berrybelle-polaroid figcaption { height:54px; display:grid; place-items:center; font:800 .78rem/1 "DM Mono",monospace; letter-spacing:.12em; }
 .hero-sticker { position:absolute; z-index:6; padding:10px 14px; background:#ffe06e; border:2px solid var(--ink); border-radius:6px; font:800 .7rem/1 "DM Mono",monospace; box-shadow:6px 6px 0 var(--ink); }
 .sticker-one { left:5%; bottom:16%; transform:rotate(-7deg); }
@@ -151,7 +151,7 @@ a { color:inherit; }
 .index-card p { margin:0; font-size:.88rem; line-height:1.45; font-weight:700; }
 
 .berrybelle-outro { display:grid; grid-template-columns:minmax(320px,.75fr) 1fr; min-height:75vh; align-items:center; gap:60px; padding:90px clamp(24px,7vw,110px); background:linear-gradient(135deg,#ffe4ec,#fff8df); }
-.berrybelle-outro img { width:min(520px,100%); justify-self:center; border-radius:34px; border:12px solid #fff; box-shadow:var(--shadow); transform:rotate(-3deg); }
+.berrybelle.jpg-outro img { width:min(520px,100%); justify-self:center; border-radius:34px; border:12px solid #fff; box-shadow:var(--shadow); transform:rotate(-3deg); }
 .berrybelle-outro p:not(.micro-label) { font-size:1.12rem; line-height:1.65; font-weight:800; }
 
 .recipe-dialog { border:0; padding:0; width:min(1180px,94vw); max-height:92vh; background:transparent; }
@@ -219,7 +219,7 @@ a { color:inherit; }
   .hero { padding:60px 18px 80px; }
   .hero h1 { font-size:clamp(3.6rem,17vw,6rem); }
   .hero-contact-sheet { min-height:470px; }
-  .berrybelle-polaroid { width:56%; height:54%; left:22%; }
+  .berrybelle.jpg-polaroid { width:56%; height:54%; left:22%; }
   .frame-a { width:45%; height:34%; }
   .frame-b { width:41%; height:32%; }
   .frame-c { width:40%; height:29%; }
@@ -227,7 +227,7 @@ a { color:inherit; }
   .about { grid-template-columns:1fr; padding:70px 18px; }
   .about-number { display:none; }
   .about-note { grid-column:auto; }
-  .chapter-nav,.index-section,.berrybelle-outro { padding-left:18px; padding-right:18px; }
+  .chapter-nav,.index-section,.berrybelle.jpg-outro { padding-left:18px; padding-right:18px; }
   .category-gate { grid-template-columns:1fr; padding:60px 18px; }
   .gate-card { justify-self:start; width:80%; }
   .frame-image { min-height:58vh; }
